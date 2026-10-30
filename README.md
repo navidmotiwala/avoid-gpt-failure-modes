@@ -18,6 +18,25 @@ Large language models can produce fluent answers that are inaccurate, incomplete
 - [Research and resources](#research-and-resources)
 - [Limitations](#limitations)
 
+## Detailed reference chapters
+
+The 100 entries below are a quick index. Each chapter expands its ten entries with definitions, potential causes, illustrative failures, detection checks, mitigation prompts, test-design guidance and residual risks. Examples are constructed illustrations, not measured failures.
+
+- [Accuracy and factual errors (1–10)](failure-modes/01-accuracy-factual-errors.md)
+- [Reasoning and logic (11–20)](failure-modes/02-reasoning-logic.md)
+- [Bias and agreement (21–30)](failure-modes/03-bias-agreement.md)
+- [Context and instructions (31–40)](failure-modes/04-context-instructions.md)
+- [Research and evidence (41–50)](failure-modes/05-research-evidence.md)
+- [Writing and communication (51–60)](failure-modes/06-writing-communication.md)
+- [Data and analysis (61–70)](failure-modes/07-data-analysis.md)
+- [Coding and technical work (71–80)](failure-modes/08-coding-technical.md)
+- [Security and privacy (81–90)](failure-modes/09-security-privacy.md)
+- [Planning and decisions (91–100)](failure-modes/10-planning-decisions.md)
+
+**Evaluation resources:** [Reproducible testing protocol](evaluations/PROTOCOL.md) · [16 starter test cases](evaluations/STARTER-CASES.md)
+
+**Evidence status:** The starter tests have not been executed. This repository does not currently report verified model failure rates or experimental improvements. Model-specific claims require saved outputs and independent verification.
+
 ## 100 common failure modes
 
 ### 1. Accuracy and factual errors
